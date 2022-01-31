@@ -22,6 +22,32 @@ public class Main {
         System.out.println(Exercise004.doubleChar("Car!"));
         System.out.println("\nSuccess!\n");
 
+        //Exercises > 8 kyu: Thinkful - Logic Drills: Traffic light TODO#005 - DONE.
+        System.out.println("EXERCISE #5 - Output:\n");
+        System.out.println(Exercise005.updateLight("yellow"));
+        System.out.println("\nSuccess!\n");
 
+        //Exercises > 8 kyu: Count Odd Numbers below n TODO#006 - DONE.
+        System.out.println("EXERCISE #6 - Output:\n");
+        System.out.println(Exercise006.oddCount(7));
+        System.out.println("\nSuccess!\n");
+
+        //Exercises > 8 kyu: Keep up the hoop TODO#007 - DONE.
+        System.out.println("EXERCISE #7 - Output:\n");
+        System.out.println(Exercise007.hoopCount(3));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 8 kyu: Twice as old TODO#008 - DONE.
+        System.out.println("EXERCISE #8 - Output:\n");
+        System.out.println(Exercise008.TwiceAsOld(30,7));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 0 kyu: TEMPLATE TODO#000 - WORK IN PROGRESS!
+        //System.out.println("EXERCISE #000 - Output:\n");
+        //System.out.println(Exercise007.);
+        //System.out.println("\nSuccess!\n");
+        //System.out.println("---------------------------------\n");
     }
 }
