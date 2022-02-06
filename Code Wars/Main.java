@@ -1,15 +1,8 @@
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
-
-        String[] stringArray01 = {"Part1", "Part2"};
-        String[] stringArray02 = {"ABC", "DEF"};
-
-        int[] integerArray01 = {1,3,5,7};
-        int[] integerArray02 = {2,4,6,8};
-
-        char[] charArray01 = {'a', 'b', 'c'};
-        char[] charArray02 = {'d', 'e', 'f'};
 
         //Exercises > 8 kyu: Beginner Series #1 School Paperwork TODO#001 - DONE.
         System.out.println("EXERCISE #1 - Output:\n");
@@ -101,9 +94,45 @@ public class Main {
         System.out.println("\nSuccess!\n");
         System.out.println("---------------------------------\n");
 
-        //Exercises > 8 kyu: To square(root) or not to square(root) TODO#017 - WORK IN PROGRESS!
+        //Exercises > 8 kyu: To square(root) or not to square(root) TODO#017 - DONE.
         System.out.println("EXERCISE #17 - Output:\n");
         System.out.println(Exercise017.squareOrSquareRoot(new int[] { 100, 101, 5, 5, 1, 1 }));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 8 kyu: Grasshopper - Messi goals function TODO#018 - DONE.
+        System.out.println("EXERCISE #18 - Output:\n");
+        System.out.println(Exercise018.goals(3,3,3));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 8 kyu: Function 3 - multiplying two numbers TODO#019 - DONE.
+        System.out.println("EXERCISE #19 - Output:\n");
+        System.out.println(Exercise019.multiply(5,10));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 8 kyu: Simple Fun #1: Seats in Theater TODO#020 - DONE.
+        System.out.println("EXERCISE #20 - Output:\n");
+        System.out.println(Exercise020.seatsInTheater(16,11,5,3));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 7 kyu: List Filtering TODO#021 - DONE.
+        System.out.println("EXERCISE #21 - Output:\n");
+        System.out.println(Exercise021.filterList(Arrays.asList(new Object[]{1,2,"a","b"})));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 7 kyu: makeComplement TODO#022 - DONE.
+        System.out.println("EXERCISE #22 - Output:\n");
+        System.out.println(Exercise022.makeComplement("TAACG"));
+        System.out.println("\nSuccess!\n");
+        System.out.println("---------------------------------\n");
+
+        //Exercises > 7 kyu: Two to One TODO#023 - WORK IN PROGRESS!
+        System.out.println("EXERCISE #23 - Output:\n");
+        System.out.println(Exercise023.longest("loopingisfunbutdangerous", "lessdangerousthancoding"));
         System.out.println("\nSuccess!\n");
         System.out.println("---------------------------------\n");
 
